@@ -17,9 +17,8 @@ chrome_options.add_argument("--window-size=1920x1080")
 outputdir = "logs"
 service_log_path = "{}/chromedriver.log".format(outputdir)
 service_args = ['--verbose']
-driver = webdriver.Chrome('chromedriver',
-        service_args=service_args,
-        service_log_path=service_log_path)
+driver = webdriver.Chrome(service_args=service_args,
+													service_log_path=service_log_path)
 
 
 driver.get(url)
