@@ -1,6 +1,7 @@
 import os
 from datetime import datetime
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from PIL import Image
 from io import StringIO
 
