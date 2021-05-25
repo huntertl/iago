@@ -12,7 +12,18 @@ os.environ['PATH'] = os.getcwd() + ':' + os.environ['PATH']
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--window-size=1920x1080")
-driver = webdriver.Chrome(chrome_options=chrome_options)
+
+
+outputdir = "logs"
+service_log_path = "{}/chromedriver.log".format(outputdir)
+service_args = ['--verbose']
+driver = webdriver.Chrome('chromedriver',
+        service_args=service_args,
+        service_log_path=service_log_path)
+
+
 driver.get(url)
 now = datetime.utcnow()
 driver.get_screenshot_as_file('screenshots/{}.png'.format(now))
+
+
