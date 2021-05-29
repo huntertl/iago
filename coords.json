@@ -10548,8 +10548,50 @@
         "lat": 46.50429,
         "lon": -32.46476
       },
-      "bearing": 40.2,
-      "bsp": 6.5,
+      "bearing": 41,
+      "bsp": 6.7,
+      "twa": null,
+      "twd": null,
+      "tws": null,
+      "gust": null,
+      "isSample": true
+    },
+    {
+      "t": 1622257388,
+      "p": {
+        "lat": 46.54993,
+        "lon": -32.40708
+      },
+      "bearing": 41.1,
+      "bsp": 6.4,
+      "twa": null,
+      "twd": null,
+      "tws": null,
+      "gust": null,
+      "isSample": true
+    },
+    {
+      "t": 1622260991,
+      "p": {
+        "lat": 46.59319,
+        "lon": -32.35209
+      },
+      "bearing": 43.3,
+      "bsp": 6.1,
+      "twa": null,
+      "twd": null,
+      "tws": null,
+      "gust": null,
+      "isSample": true
+    },
+    {
+      "t": 1622264592,
+      "p": {
+        "lat": 46.63327,
+        "lon": -32.29702
+      },
+      "bearing": 43.3,
+      "bsp": 6.1,
       "twa": null,
       "twd": null,
       "tws": null,
