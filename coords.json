@@ -14384,8 +14384,22 @@
         "lat": 54.7501,
         "lon": -12.30235
       },
-      "bearing": 85.9,
-      "bsp": 7.4,
+      "bearing": 78.6,
+      "bsp": 7.6,
+      "twa": null,
+      "twd": null,
+      "tws": null,
+      "gust": null,
+      "isSample": true
+    },
+    {
+      "t": 1623249554,
+      "p": {
+        "lat": 54.7635,
+        "lon": -12.18644
+      },
+      "bearing": 78.6,
+      "bsp": 7.6,
       "twa": null,
       "twd": null,
       "tws": null,
